@@ -1,0 +1,94 @@
+@media screen and (min-width: 768px) { /*jeg har sletttet den første body, da der kun må være en body! 
+                                       den eneste grund til at den første ikke havde nogen betydning, er fordi at det var sat til at være den samme baggrundsfarve!*/
+    @import url(https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap%27);    
+
+    .bowling {
+        position: relative; /*Sætter positionen til relativ, hvilket betyder, at elementet positioneres i forhold til dets normale position 
+                            Ved at sætte top, right, left, bottom elementer ind vil det rykke dens placering fra hvor den oprindeligt var*/
+        color: white;
+        font-family: inter, sans-serif; /*sætter skrifttypen til inter eller sans-serif*/
+        bottom: 40px;
+        font-size: 32px; /*ændrer skriftstørrelsen*/
+        width: 431px;
+        line-height: 35px;
+        left: 555px;}
+
+
+    .Bowling {
+        position: relative;
+        color: white;
+        font-family: inter, sans-serif;
+        bottom: 40px;
+        font-size: 16px;
+        width: 1000px;
+        line-height: 25px;
+        left: 45px;}
+
+        .præmie {
+            position: relative;
+            color: white;
+            font-family: inter, sans-serif;
+            bottom: 15px;
+            font-size: 16px;
+            width: 1000px;
+            line-height: 25px;
+            left: 0px;}
+
+            .Mød {
+                position: relative;
+                color: white;
+                font-family: inter, sans-serif;
+                bottom: 15px;
+                font-size: 16px;
+                width: 431px;
+                line-height: 25px;
+                left: 0px;}
+
+        .PDF {
+            position: relative;
+            color: white;
+            font-family: inter, sans-serif;
+            bottom: 15px;
+            font-size: 16px;
+            width: 1000px;
+            line-height: 25px;
+            left: 0px;}
+
+
+
+    .Privatpolitiktekst { 
+        position: relative;
+        color: white;
+        left: 1px;
+        font-size: 16px;
+        top: 40px;
+        font-size: 16px;
+        line-height: 25px;
+        font-family: inter, sans-serif;
+    }
+        
+        .footer { /*slet dette i alle filer, da der ikke er nogen footer*/
+        position: relative;
+        
+        }
+        
+        .linje {
+        position: relative;
+        border-top: 2px solid #ffffff; /* White color */
+        width: 90px; 
+        bottom: 155px;  }
+          
+        .facebookimg {
+        position: relative;
+        bottom: 160px;
+        left: 330px;
+        }
+
+        .Menu {
+            position: relative;
+            bottom: 85px;
+            left: 400px;
+        display: none;
+        }
+
+    }

@@ -1,0 +1,138 @@
+@media screen and (min-width: 430px) and (max-width: 930px) { /*der må kun være en body!*/
+@import url(https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap%27);    
+
+
+/*The position property: 
+Static: Et element med position: static;  er ikke placeret på nogen særlig måde; den er altid placeret i overensstemmelse med sidens normale flow.
+
+relativ: Et element som er sat til position: relative; er placeret i forhold til sin normale position
+         Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+         gør det at det vil rykke sig fra sin normale positon.
+
+fixed: Et element med position: fixed; er placeret relativt i forhold ti viewport, hvilket betyder, at elementet altid forbliver samme sted selv hvis man scroller.
+absolute: Et element med position: absolut; er placeret i forhold til den nærmeste forfader (i stedet for placeret til viewporten, som position: fixed;
+- Imidlertid: hvis et absplut positioneret element ikke har nogen positionerede forfædre, bruger det dokuementets krop (body) og bevæger sig sammen med siderulning.
+
+Sticky: Et element med positioned: sticky; er placeret baseret på brugerens rulleposition.
+Et klæbende element skifter mellem relativ og fast, afhængigt af rulleposition. Den placeret relativt indtil en gives offset position er opfyldt i viewporten - så "klæber den" på plads (som position: fixed) 
+*/
+
+.Menu { /*Burgermenu*/
+position: relative; 
+/*Et element som er sat til position: relative; er placeret i forhold til sin normale position
+Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+gør det at det vil rykke sig fra sin normale positon.*/
+
+bottom: 85px;  /*Bottom rykker elementet lodret på skærmen, da vi har sat position: relative; rykker elementet sig enten over/under dens normale position*/
+left: 400px;   /*Left bevæger sig vandret på skærmen, da vi har sat position: relative; bevæger den sig enten til venstre eller højre*/
+}
+
+.bowling { /*Titlen*/
+position: relative; 
+/*Et element som er sat til position: relative; er placeret i forhold til sin normale position
+Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+gør det at det vil rykke sig fra sin normale positon.*/
+
+color: white; /*Skifter farven til hvis*/
+font-family: inter, sans-serif; /*skifter skrifttypen til enten inter eller sans-serif*/
+bottom: 80px; /**/
+font-size: 32px;
+width: 431px;
+line-height: 35px;
+left: 200px;}
+
+
+.Bowling {
+position: relative;
+/*Et element som er sat til position: relative; er placeret i forhold til sin normale position
+Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+gør det at det vil rykke sig fra sin normale positon.*/
+
+color: white;
+font-family: inter, sans-serif;
+bottom: 80px;
+font-size: 16px;
+width: 431px;
+line-height: 25px;
+left: 45px;}
+
+.præmie {
+position: relative;
+/*Et element som er sat til position: relative; er placeret i forhold til sin normale position
+Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+gør det at det vil rykke sig fra sin normale positon.*/
+
+color: white;
+font-family: inter, sans-serif;
+bottom: 15px;
+font-size: 16px;
+width: 431px;
+line-height: 25px;
+left: 0px;}
+
+.Mød {
+position: relative;
+/*Et element som er sat til position: relative; er placeret i forhold til sin normale position
+Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+gør det at det vil rykke sig fra sin normale positon.*/
+
+color: white;
+font-family: inter, sans-serif;
+bottom: 15px;
+font-size: 16px;
+width: 431px;
+line-height: 25px;
+left: 0px;}
+
+.PDF {
+position: relative;
+/*Et element som er sat til position: relative; er placeret i forhold til sin normale position
+Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+gør det at det vil rykke sig fra sin normale positon.*/
+
+color: white;
+font-family: inter, sans-serif;
+bottom: 15px;
+font-size: 16px;
+width: 431px;
+line-height: 25px;
+left: 0px;}
+
+.Privatpolitiktekst { 
+position: relative;
+/*Et element som er sat til position: relative; er placeret i forhold til sin normale position
+Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+gør det at det vil rykke sig fra sin normale positon.*/
+
+color: white;
+left: 40px;
+font-size: 16px;
+top: 5px;
+font-size: 16px;
+line-height: 25px;
+font-family: inter, sans-serif;
+}
+            
+.footer {position: relative;} /*slet dette da der ikke er nogen footer*/
+            
+.linje {
+position: relative;
+/*Et element som er sat til position: relative; er placeret i forhold til sin normale position
+Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+gør det at det vil rykke sig fra sin normale positon.*/
+
+border-top: 2px solid #ffffff; /* White color */
+width: 90px; 
+bottom: 190px;
+left: 40px; }
+              
+.facebookimg {
+position: relative;
+/*Et element som er sat til position: relative; er placeret i forhold til sin normale position
+Ved at tilføje elementer som top, right, bottom, og left af et relatively-positioned element 
+gør det at det vil rykke sig fra sin normale positon.*/
+
+bottom: 198px;
+left: 330px; }
+
+} /*End tag til media query*/
